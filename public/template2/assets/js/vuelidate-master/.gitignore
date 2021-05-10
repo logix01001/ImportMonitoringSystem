@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+lib/
+npm-debug.log
+coverage
+gh-pages
+yarn.lock
+*.tgz

@@ -1,0 +1,10 @@
+dismountend place date = cy and date
+
+actual deliver = pull_out
+
+actual unloading = unload
+
+return of empty cntr
+cy date trucker box summary
+
+remarks = reason_of_delay_delivery

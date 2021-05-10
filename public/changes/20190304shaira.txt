@@ -1,0 +1,56 @@
+changes 
+
+API
+get_chart_details
+
+ //->whereNull('dismounted_cy')
+                    //->where(function ($query) use ($date_request) {
+                      //  $query->whereNull('pull_out');
+                     //   $query->orWhere('pull_out', '>', $date_request);
+                    //})
+
+to 
+
+->whereNull('pull_out')
+
+
+Reportscontroller@charts()
+
+ //->whereNull('dismounted_cy')
+                    //->where(function ($query) use ($date_request) {
+                      //  $query->whereNull('pull_out');
+                     //   $query->orWhere('pull_out', '>', $date_request);
+                    //})
+
+to
+
+->whereNull('pull_out')
+
+ContainerATPort
+//->whereNull('dismounted_cy')
+/*->where(function ($query) use ($date_request) {
+                            $query->whereNull('pull_out');
+                            $query->orWhere('pull_out', '>', $date_request);
+                        })*/
+
+to
+
+ ->whereNull('pull_out')
+
+
+
+SummaryTallyExport
+
+comment
+//$query->orWhere('pull_out', '>', $lastDayThisMonth);
+
+
+API
+
+	
+
+NORTH SOUT PORT TOTAL ALL
+
+
+summary_tally
+pullout
